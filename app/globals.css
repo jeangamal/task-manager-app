@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom global styles here */
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+}
